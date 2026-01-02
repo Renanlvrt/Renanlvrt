@@ -17,7 +17,7 @@
 
 <!-- Animated Vinyl Record -->
 <div align="center">
-    <img src="./assets/vinyl.svg" alt="The B-Sides - Renan's Album" width="400"/>
+    <img src="./assets/vinyl.svg" alt="The B-Sides - Renan's Album" width="600"/>
 </div>
 
 <br/>

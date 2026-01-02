@@ -1,86 +1,129 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 320" width="500" height="320">
   <defs>
     <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&amp;display=swap');
+      
       .vinyl-disc {
-        transform-origin: 200px 200px;
-        animation: spin 6s linear infinite;
+        transform-origin: 160px 160px;
+        animation: spin 8s linear infinite;
       }
+      
       @keyframes spin {
         from { transform: rotate(0deg); }
         to { transform: rotate(360deg); }
       }
-      .label-text {
-        font-family: Arial, sans-serif;
-        fill: white;
-        text-anchor: middle;
-      }
+      
+      .text-main { font-family: 'Inter', Arial, sans-serif; }
     </style>
     
-    <!-- Vinyl grooves pattern -->
-    <pattern id="grooves" patternUnits="userSpaceOnUse" width="4" height="4">
-      <circle cx="200" cy="200" r="200" fill="none" stroke="#1a1a1a" stroke-width="1"/>
-    </pattern>
-    
-    <!-- Gradient for label -->
+    <!-- Premium gradient for label -->
     <linearGradient id="labelGradient" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#00D9FF"/>
-      <stop offset="50%" style="stop-color:#0a4f5c"/>
+      <stop offset="40%" style="stop-color:#0891b2"/>
       <stop offset="100%" style="stop-color:#00FF88"/>
     </linearGradient>
     
     <!-- Vinyl shine -->
-    <radialGradient id="vinylShine" cx="30%" cy="30%">
-      <stop offset="0%" style="stop-color:rgba(255,255,255,0.1)"/>
-      <stop offset="100%" style="stop-color:rgba(0,0,0,0)"/>
-    </radialGradient>
+    <linearGradient id="vinylShine" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgba(255,255,255,0.12)"/>
+      <stop offset="50%" style="stop-color:rgba(255,255,255,0)"/>
+      <stop offset="100%" style="stop-color:rgba(255,255,255,0.05)"/>
+    </linearGradient>
+    
+    <!-- Outer glow -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <!-- Text glow -->
+    <filter id="textGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
   </defs>
   
   <!-- Background -->
-  <rect width="400" height="400" fill="#0d1117"/>
+  <rect width="500" height="320" fill="#0d1117"/>
   
-  <!-- Glow effect -->
-  <circle cx="200" cy="200" r="160" fill="none" stroke="#00D9FF" stroke-width="2" opacity="0.3">
-    <animate attributeName="opacity" values="0.2;0.4;0.2" dur="2s" repeatCount="indefinite"/>
-  </circle>
+  <!-- Subtle glow behind vinyl -->
+  <circle cx="160" cy="160" r="145" fill="none" stroke="#00D9FF" stroke-width="1" opacity="0.15"/>
+  <circle cx="160" cy="160" r="155" fill="none" stroke="#00D9FF" stroke-width="0.5" opacity="0.1"/>
   
   <!-- Spinning vinyl group -->
   <g class="vinyl-disc">
-    <!-- Outer vinyl -->
-    <circle cx="200" cy="200" r="150" fill="#0a0a0a"/>
+    <!-- Outer vinyl base -->
+    <circle cx="160" cy="160" r="140" fill="#080808"/>
     
-    <!-- Grooves -->
-    <circle cx="200" cy="200" r="140" fill="none" stroke="#151515" stroke-width="1"/>
-    <circle cx="200" cy="200" r="130" fill="none" stroke="#1a1a1a" stroke-width="1"/>
-    <circle cx="200" cy="200" r="120" fill="none" stroke="#151515" stroke-width="1"/>
-    <circle cx="200" cy="200" r="110" fill="none" stroke="#1a1a1a" stroke-width="1"/>
-    <circle cx="200" cy="200" r="100" fill="none" stroke="#151515" stroke-width="1"/>
-    <circle cx="200" cy="200" r="90" fill="none" stroke="#1a1a1a" stroke-width="1"/>
-    <circle cx="200" cy="200" r="80" fill="none" stroke="#151515" stroke-width="1"/>
-    <circle cx="200" cy="200" r="70" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+    <!-- Vinyl grooves - more realistic -->
+    <circle cx="160" cy="160" r="135" fill="none" stroke="#111" stroke-width="0.8"/>
+    <circle cx="160" cy="160" r="128" fill="none" stroke="#161616" stroke-width="0.6"/>
+    <circle cx="160" cy="160" r="121" fill="none" stroke="#111" stroke-width="0.8"/>
+    <circle cx="160" cy="160" r="114" fill="none" stroke="#161616" stroke-width="0.6"/>
+    <circle cx="160" cy="160" r="107" fill="none" stroke="#111" stroke-width="0.8"/>
+    <circle cx="160" cy="160" r="100" fill="none" stroke="#161616" stroke-width="0.6"/>
+    <circle cx="160" cy="160" r="93" fill="none" stroke="#111" stroke-width="0.8"/>
+    <circle cx="160" cy="160" r="86" fill="none" stroke="#161616" stroke-width="0.6"/>
+    <circle cx="160" cy="160" r="79" fill="none" stroke="#111" stroke-width="0.8"/>
+    <circle cx="160" cy="160" r="72" fill="none" stroke="#161616" stroke-width="0.6"/>
+    <circle cx="160" cy="160" r="65" fill="none" stroke="#111" stroke-width="0.8"/>
     
-    <!-- Shine overlay -->
-    <circle cx="200" cy="200" r="150" fill="url(#vinylShine)"/>
+    <!-- Vinyl shine overlay -->
+    <circle cx="160" cy="160" r="140" fill="url(#vinylShine)"/>
     
-    <!-- Center label -->
-    <circle cx="200" cy="200" r="55" fill="url(#labelGradient)"/>
+    <!-- Center label background -->
+    <circle cx="160" cy="160" r="50" fill="url(#labelGradient)"/>
+    <circle cx="160" cy="160" r="50" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
     
     <!-- Center hole -->
-    <circle cx="200" cy="200" r="6" fill="#0d1117"/>
+    <circle cx="160" cy="160" r="5" fill="#0d1117"/>
+    <circle cx="160" cy="160" r="5" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="0.5"/>
   </g>
   
-  <!-- Static text (not spinning) -->
-  <text x="200" y="190" class="label-text" font-size="24" font-weight="bold">2028</text>
-  <text x="200" y="210" class="label-text" font-size="8">DURHAM UNIVERSITY</text>
-  <text x="200" y="222" class="label-text" font-size="7" fill="#cccccc">First Class Honours</text>
+  <!-- Static label text (counter-rotates to stay fixed) -->
+  <g>
+    <text x="160" y="152" class="text-main" font-size="22" font-weight="700" fill="white" text-anchor="middle" filter="url(#textGlow)">2028</text>
+    <text x="160" y="168" class="text-main" font-size="6" font-weight="600" fill="rgba(255,255,255,0.95)" text-anchor="middle" letter-spacing="1">DURHAM UNIVERSITY</text>
+    <text x="160" y="180" class="text-main" font-size="5.5" font-weight="400" fill="rgba(255,255,255,0.7)" text-anchor="middle">First Class Honours</text>
+  </g>
   
-  <!-- Album title below -->
-  <text x="200" y="320" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#00D9FF" text-anchor="middle">THE B-SIDES</text>
-  <text x="200" y="345" font-family="Arial, sans-serif" font-size="12" fill="#888888" text-anchor="middle">by Renan Lavirotte</text>
-  <text x="200" y="370" font-family="Arial, sans-serif" font-size="10" fill="#555555" text-anchor="middle" font-style="italic">"Behind every achievement is unseen hard work"</text>
+  <!-- Album info section (right side) -->
+  <g transform="translate(330, 60)">
+    <!-- Album title -->
+    <text x="0" y="0" class="text-main" font-size="32" font-weight="700" fill="#00D9FF" filter="url(#textGlow)">THE B-SIDES</text>
+    
+    <!-- Artist -->
+    <text x="0" y="25" class="text-main" font-size="13" font-weight="300" fill="rgba(255,255,255,0.6)">by Renan Lavirotte</text>
+    
+    <!-- Divider line -->
+    <line x1="0" y1="45" x2="140" y2="45" stroke="#00D9FF" stroke-width="1" opacity="0.3"/>
+    
+    <!-- Quote -->
+    <text x="0" y="70" class="text-main" font-size="10" font-style="italic" fill="rgba(255,255,255,0.5)">"Behind every achievement</text>
+    <text x="0" y="85" class="text-main" font-size="10" font-style="italic" fill="rgba(255,255,255,0.5)">is unseen hard work"</text>
+    
+    <!-- Tracklist preview -->
+    <text x="0" y="115" class="text-main" font-size="8" font-weight="600" fill="#00D9FF" letter-spacing="1.5">FEATURING</text>
+    
+    <text x="0" y="135" class="text-main" font-size="9" fill="rgba(255,255,255,0.7)">🇫🇷 → 🇯🇵 → 🇬🇧  The Journey</text>
+    <text x="0" y="152" class="text-main" font-size="9" fill="rgba(255,255,255,0.7)">🏃 Captain's Log</text>
+    <text x="0" y="169" class="text-main" font-size="9" fill="rgba(255,255,255,0.7)">🤖 The Robot Whisperer</text>
+    
+    <!-- Now playing indicator -->
+    <g transform="translate(0, 200)">
+      <circle cx="6" cy="-3" r="4" fill="#00FF88">
+        <animate attributeName="opacity" values="1;0.4;1" dur="1.5s" repeatCount="indefinite"/>
+      </circle>
+      <text x="16" y="0" class="text-main" font-size="9" font-weight="500" fill="#00D9FF">Now Playing</text>
+    </g>
+  </g>
   
-  <!-- Now playing indicator -->
-  <circle cx="130" cy="380" r="4" fill="#00FF88">
-    <animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite"/>
-  </circle>
-  <text x="145" y="384" font-family="Arial, sans-serif" font-size="10" fill="#00D9FF">Now Playing</text>
+  <!-- Bottom accent line -->
+  <line x1="30" y1="305" x2="470" y2="305" stroke="url(#labelGradient)" stroke-width="2" opacity="0.3"/>
 </svg>
