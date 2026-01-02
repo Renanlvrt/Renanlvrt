@@ -124,7 +124,7 @@ Environment-reactive obstacle avoidance robot with 180° continuous scanning, 50
 </div>
 
 ---
-
+<!-- GitHub Stats 
 ## 📊 GitHub Stats
 
 <div align="center">
@@ -135,6 +135,7 @@ Environment-reactive obstacle avoidance robot with 180° continuous scanning, 50
 <div align="center">
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=Renanlvrt&theme=tokyonight&hide_border=true&background=0D1117&ring=00D9FF&fire=00FF88&currStreakLabel=00D9FF" alt="GitHub Streak"/>
 </div>
+-->
 
 ---
 
