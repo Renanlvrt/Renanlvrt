@@ -149,24 +149,10 @@ Environment-reactive obstacle avoidance robot with 180° continuous scanning, 50
 ## 📸 Life Beyond Code
 
 <div align="center">
-    <h4>✨ Hobbies & Adventures ✨</h4>
-    <table>
-        <tr>
-            <td align="center">
-                <img src="./assets/hobbies/hobby1.png" width="250" alt="Hobby 1"/>
-                <br/><sub><b>🏃 Athletics</b></sub>
-            </td>
-            <td align="center">
-                <img src="./assets/hobbies/hobby2.png" width="250" alt="Hobby 2"/>
-                <br/><sub><b>🎾 Tennis</b></sub>
-            </td>
-            <td align="center">
-                <img src="./assets/hobbies/hobby3.png" width="250" alt="Hobby 3"/>
-                <br/><sub><b>🎨 Digital Design</b></sub>
-            </td>
-        </tr>
-    </table>
-    <sub>📷 Add your photos to <code>assets/hobbies/</code> folder!</sub>
+    <h4>✨ I didn't come this far to only come this far ✨</h4>
+    <img src="./assets/hobbies/hobby1.png" width="400" alt="Durham University Marathon"/>
+    <br/>
+    <sub><b>🏃 Durham University Marathon to Success - 2028</b></sub>
 </div>
 
 ---
