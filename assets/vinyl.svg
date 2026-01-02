@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" width="600" height="320">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 320" width="700" height="320">
   <defs>
     <style>
       .vinyl-disc {
-        transform-origin: 160px 160px;
+        transform-origin: 350px 150px;
         animation: spin 8s linear infinite;
       }
       
@@ -12,8 +12,8 @@
       }
       
       .text-main { font-family: 'Segoe UI', Arial, sans-serif; }
-      .fact-text { font-family: 'Segoe UI', Arial, sans-serif; font-size: 11px; fill: rgba(255,255,255,0.85); }
-      .fact-label { font-family: 'Segoe UI', Arial, sans-serif; font-size: 8px; fill: #00D9FF; letter-spacing: 1px; }
+      .fact-text { font-family: 'Segoe UI', Arial, sans-serif; font-size: 12px; fill: rgba(255,255,255,0.85); }
+      .fact-label { font-family: 'Segoe UI', Arial, sans-serif; font-size: 9px; fill: #00D9FF; letter-spacing: 1px; }
     </style>
     
     <!-- Premium gradient for label -->
@@ -41,76 +41,69 @@
   </defs>
   
   <!-- Background -->
-  <rect width="600" height="320" fill="#0d1117"/>
+  <rect width="700" height="320" fill="#0d1117"/>
   
   <!-- LEFT SIDE FACTS -->
-  <g transform="translate(20, 80)">
+  <g transform="translate(30, 70)">
     <text x="0" y="0" class="fact-label">MARATHON</text>
-    <text x="0" y="16" class="fact-text">Copenhagen Finisher</text>
+    <text x="0" y="18" class="fact-text">Copenhagen Finisher</text>
     
-    <text x="0" y="55" class="fact-label">LANGUAGES</text>
-    <text x="0" y="71" class="fact-text">French · English · Japanese</text>
+    <text x="0" y="60" class="fact-label">LANGUAGES</text>
+    <text x="0" y="78" class="fact-text">French · English · Japanese</text>
   </g>
   
-  <!-- Spinning vinyl group -->
-  <g class="vinyl-disc" transform="translate(140, 0)">
+  <!-- Spinning vinyl group - CENTERED -->
+  <g class="vinyl-disc">
     <!-- Outer vinyl base -->
-    <circle cx="160" cy="160" r="130" fill="#080808"/>
+    <circle cx="350" cy="150" r="115" fill="#080808"/>
     
     <!-- Grooves -->
-    <circle cx="160" cy="160" r="125" fill="none" stroke="#111" stroke-width="0.6"/>
-    <circle cx="160" cy="160" r="118" fill="none" stroke="#161616" stroke-width="0.5"/>
-    <circle cx="160" cy="160" r="111" fill="none" stroke="#111" stroke-width="0.6"/>
-    <circle cx="160" cy="160" r="104" fill="none" stroke="#161616" stroke-width="0.5"/>
-    <circle cx="160" cy="160" r="97" fill="none" stroke="#111" stroke-width="0.6"/>
-    <circle cx="160" cy="160" r="90" fill="none" stroke="#161616" stroke-width="0.5"/>
-    <circle cx="160" cy="160" r="83" fill="none" stroke="#111" stroke-width="0.6"/>
-    <circle cx="160" cy="160" r="76" fill="none" stroke="#161616" stroke-width="0.5"/>
-    <circle cx="160" cy="160" r="69" fill="none" stroke="#111" stroke-width="0.6"/>
-    <circle cx="160" cy="160" r="62" fill="none" stroke="#161616" stroke-width="0.5"/>
+    <circle cx="350" cy="150" r="110" fill="none" stroke="#111" stroke-width="0.6"/>
+    <circle cx="350" cy="150" r="103" fill="none" stroke="#161616" stroke-width="0.5"/>
+    <circle cx="350" cy="150" r="96" fill="none" stroke="#111" stroke-width="0.6"/>
+    <circle cx="350" cy="150" r="89" fill="none" stroke="#161616" stroke-width="0.5"/>
+    <circle cx="350" cy="150" r="82" fill="none" stroke="#111" stroke-width="0.6"/>
+    <circle cx="350" cy="150" r="75" fill="none" stroke="#161616" stroke-width="0.5"/>
+    <circle cx="350" cy="150" r="68" fill="none" stroke="#111" stroke-width="0.6"/>
+    <circle cx="350" cy="150" r="61" fill="none" stroke="#161616" stroke-width="0.5"/>
+    <circle cx="350" cy="150" r="54" fill="none" stroke="#111" stroke-width="0.6"/>
     
     <!-- Vinyl shine overlay -->
-    <circle cx="160" cy="160" r="130" fill="url(#vinylShine)"/>
+    <circle cx="350" cy="150" r="115" fill="url(#vinylShine)"/>
     
     <!-- Center label background -->
-    <circle cx="160" cy="160" r="48" fill="url(#labelGradient)"/>
-    <circle cx="160" cy="160" r="48" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="0.5"/>
+    <circle cx="350" cy="150" r="42" fill="url(#labelGradient)"/>
+    <circle cx="350" cy="150" r="42" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="0.5"/>
     
     <!-- Center hole -->
-    <circle cx="160" cy="160" r="4" fill="#0d1117"/>
+    <circle cx="350" cy="150" r="4" fill="#0d1117"/>
   </g>
   
   <!-- Static center text -->
-  <g transform="translate(300, 0)">
-    <text x="0" y="150" class="text-main" font-size="20" font-weight="700" fill="white" text-anchor="middle" filter="url(#glow)">2028</text>
-    <text x="0" y="168" class="text-main" font-size="7" font-weight="500" fill="rgba(255,255,255,0.9)" text-anchor="middle" letter-spacing="1">SIDE B: THE GRIND</text>
-  </g>
+  <text x="350" y="143" class="text-main" font-size="18" font-weight="700" fill="white" text-anchor="middle" filter="url(#glow)">2028</text>
+  <text x="350" y="160" class="text-main" font-size="6" font-weight="500" fill="rgba(255,255,255,0.9)" text-anchor="middle" letter-spacing="0.5">PART OF THE ADVENTURE</text>
   
   <!-- RIGHT SIDE FACTS -->
-  <g transform="translate(470, 80)">
+  <g transform="translate(530, 70)">
     <text x="0" y="0" class="fact-label">CREATIVE</text>
-    <text x="0" y="16" class="fact-text">Digital Designer</text>
+    <text x="0" y="18" class="fact-text">Digital Designer</text>
     
-    <text x="0" y="55" class="fact-label">LEADERSHIP</text>
-    <text x="0" y="71" class="fact-text">Team Captain</text>
+    <text x="0" y="60" class="fact-label">LEADERSHIP</text>
+    <text x="0" y="78" class="fact-text">Team Captain</text>
   </g>
   
   <!-- Album info below vinyl -->
-  <g transform="translate(300, 240)">
-    <text x="0" y="0" class="text-main" font-size="26" font-weight="700" fill="#00D9FF" text-anchor="middle" filter="url(#glow)">THE B-SIDES</text>
-    <text x="0" y="22" class="text-main" font-size="11" font-weight="300" fill="rgba(255,255,255,0.6)" text-anchor="middle">by Renan Lavirotte</text>
-    <text x="0" y="42" class="text-main" font-size="9" font-style="italic" fill="rgba(255,255,255,0.4)" text-anchor="middle">"Every step counts"</text>
+  <g transform="translate(350, 240)">
+    <text x="0" y="0" class="text-main" font-size="24" font-weight="700" fill="#00D9FF" text-anchor="middle" filter="url(#glow)">IN PROGRESS</text>
+    <text x="0" y="20" class="text-main" font-size="11" font-weight="300" fill="rgba(255,255,255,0.6)" text-anchor="middle">by Renan Lavirotte</text>
+    <text x="0" y="40" class="text-main" font-size="9" font-style="italic" fill="rgba(255,255,255,0.4)" text-anchor="middle">"Every step counts"</text>
   </g>
   
   <!-- Now playing indicator -->
-  <g transform="translate(255, 300)">
+  <g transform="translate(305, 300)">
     <circle cx="0" cy="0" r="4" fill="#00FF88">
       <animate attributeName="opacity" values="1;0.4;1" dur="1.5s" repeatCount="indefinite"/>
     </circle>
     <text x="12" y="4" class="text-main" font-size="9" font-weight="500" fill="#00D9FF">Now Playing</text>
   </g>
-  
-  <!-- Subtle accent lines -->
-  <line x1="20" y1="150" x2="100" y2="150" stroke="#00D9FF" stroke-width="0.5" opacity="0.2"/>
-  <line x1="500" y1="150" x2="580" y2="150" stroke="#00D9FF" stroke-width="0.5" opacity="0.2"/>
 </svg>
