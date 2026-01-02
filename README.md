@@ -15,44 +15,12 @@
 
 <br/>
 
-<!-- About Me Terminal GIF -->
+<!-- Animated Vinyl Record -->
 <div align="center">
-    <img src="./assets/about_renan.gif" alt="About Me Terminal GIF" width="600"/>
+    <img src="./assets/vinyl.svg" alt="The B-Sides - Renan's Album" width="400"/>
 </div>
 
 <br/>
-
----
-
-## 🤖 About Me
-
-```python
-class RenanLavirotte:
-    def __init__(self):
-        self.name = "Renan Lavirotte"
-        self.role = "MEng Computer Science Student"
-        self.university = "Durham University 🇬🇧"
-        self.graduation = "2024 - 2028"
-        self.gpa = "First-Class Honours (79%)"
-        
-        self.nationalities = ["🇫🇷 French", "🇯🇵 Japanese"]
-        self.languages = {
-            "French": "Native",
-            "English": "Fluent", 
-            "Japanese": "Intermediate"
-        }
-        
-    def current_focus(self):
-        return [
-            "Autonomous Robotics 🤖",
-            "Human-Robot Interaction",
-            "Computer Vision & AI",
-            "Embedded Systems"
-        ]
-    
-    def fun_fact(self):
-        return "I'm a Track & Field Captain competing at national level! 🏃"
-```
 
 ---
 

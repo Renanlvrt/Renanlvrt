@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <style>
+      .vinyl-disc {
+        transform-origin: 200px 200px;
+        animation: spin 6s linear infinite;
+      }
+      @keyframes spin {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+      .label-text {
+        font-family: Arial, sans-serif;
+        fill: white;
+        text-anchor: middle;
+      }
+    </style>
+    
+    <!-- Vinyl grooves pattern -->
+    <pattern id="grooves" patternUnits="userSpaceOnUse" width="4" height="4">
+      <circle cx="200" cy="200" r="200" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+    </pattern>
+    
+    <!-- Gradient for label -->
+    <linearGradient id="labelGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00D9FF"/>
+      <stop offset="50%" style="stop-color:#0a4f5c"/>
+      <stop offset="100%" style="stop-color:#00FF88"/>
+    </linearGradient>
+    
+    <!-- Vinyl shine -->
+    <radialGradient id="vinylShine" cx="30%" cy="30%">
+      <stop offset="0%" style="stop-color:rgba(255,255,255,0.1)"/>
+      <stop offset="100%" style="stop-color:rgba(0,0,0,0)"/>
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="400" fill="#0d1117"/>
+  
+  <!-- Glow effect -->
+  <circle cx="200" cy="200" r="160" fill="none" stroke="#00D9FF" stroke-width="2" opacity="0.3">
+    <animate attributeName="opacity" values="0.2;0.4;0.2" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Spinning vinyl group -->
+  <g class="vinyl-disc">
+    <!-- Outer vinyl -->
+    <circle cx="200" cy="200" r="150" fill="#0a0a0a"/>
+    
+    <!-- Grooves -->
+    <circle cx="200" cy="200" r="140" fill="none" stroke="#151515" stroke-width="1"/>
+    <circle cx="200" cy="200" r="130" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+    <circle cx="200" cy="200" r="120" fill="none" stroke="#151515" stroke-width="1"/>
+    <circle cx="200" cy="200" r="110" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+    <circle cx="200" cy="200" r="100" fill="none" stroke="#151515" stroke-width="1"/>
+    <circle cx="200" cy="200" r="90" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+    <circle cx="200" cy="200" r="80" fill="none" stroke="#151515" stroke-width="1"/>
+    <circle cx="200" cy="200" r="70" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+    
+    <!-- Shine overlay -->
+    <circle cx="200" cy="200" r="150" fill="url(#vinylShine)"/>
+    
+    <!-- Center label -->
+    <circle cx="200" cy="200" r="55" fill="url(#labelGradient)"/>
+    
+    <!-- Center hole -->
+    <circle cx="200" cy="200" r="6" fill="#0d1117"/>
+  </g>
+  
+  <!-- Static text (not spinning) -->
+  <text x="200" y="190" class="label-text" font-size="24" font-weight="bold">2028</text>
+  <text x="200" y="210" class="label-text" font-size="8">DURHAM UNIVERSITY</text>
+  <text x="200" y="222" class="label-text" font-size="7" fill="#cccccc">First Class Honours</text>
+  
+  <!-- Album title below -->
+  <text x="200" y="320" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#00D9FF" text-anchor="middle">THE B-SIDES</text>
+  <text x="200" y="345" font-family="Arial, sans-serif" font-size="12" fill="#888888" text-anchor="middle">by Renan Lavirotte</text>
+  <text x="200" y="370" font-family="Arial, sans-serif" font-size="10" fill="#555555" text-anchor="middle" font-style="italic">"Behind every achievement is unseen hard work"</text>
+  
+  <!-- Now playing indicator -->
+  <circle cx="130" cy="380" r="4" fill="#00FF88">
+    <animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+  <text x="145" y="384" font-family="Arial, sans-serif" font-size="10" fill="#00D9FF">Now Playing</text>
+</svg>
