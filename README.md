@@ -158,7 +158,9 @@ Environment-reactive obstacle avoidance robot with 180° continuous scanning, 50
 ## 💼 Employer?
 
 > [!IMPORTANT]  
-> <a href="./renan_lavirotte_cv.pdf" download>📄 Download my Resume</a>
+> <a href="https://github.com/Renanlvrt/Renanlvrt/raw/main/renan_lavirotte_cv.pdf">
+> <img src="https://img.shields.io/badge/📄_Download_My_Resume-00D9FF?style=for-the-badge" alt="Download Resume"/>
+> </a>
 
 ---
 
