@@ -1,98 +1,218 @@
 <!--
-    Hey there, I'm Daria Stanilevici!
-    Happy to see you here exploring my README code
-    Feel free to inspire!
+    Hey there! I'm Renan Lavirotte
+    Welcome to my GitHub profile!
     
-    But may I please ask you to follow me in return? Just a click!
-    You may also want to connect with me on LinkedIn @daria-stanilevici :))
+    Feel free to explore and connect with me on LinkedIn :)
 -->
 
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=D9BED1&height=120&section=header" alt="header"/> 
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00D9FF&height=120&section=header" alt="header"/> 
 
-<a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&weight=500&size=25&duration=4500&pause=500&color=D9BED1&width=435&lines=Hello%2C+it's+Daria+Stanilevici;Business+Analyst" alt="Business Analyst"/>
-</a>
-
-<!--
-    Your own Terminal GIF can be created here -> https://www.terminalgif.com
--->
-
-<div>
-    <img src="./assets/about_daria.gif" alt="About Me Terminal GIF"/>
-</div>
-
-<!--
-     My mission, because I'm a superhero!
--->
-<!--
-     This is the list of my skills and tools I am studying!
--->
-### Main skills
-[![My Skills](https://skillicons.dev/icons?i=py,regex,github,git,mongodb,mysql,eclipse,java,spring,js,nodejs,react,express,jest,jenkins,cpp,cs,dotnet,html,css,bootstrap,pug,php,androidstudio,blender,ps,notion)](https://skillicons.dev)
-
-### Studying
-[![Learning](https://skillicons.dev/icons?i=aws,azure,ruby)](https://skillicons.dev)
-
-<!--
-     I also have my own blog with useful information, check it out ^^
--->
-
-### Publications
-<div> 
-  <a href="https://medium.com/@daria-stanilevici">
-    <img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" target="_blank" alt="Medium">
-  </a>
-  <a href="https://dev.to/daria-stanilevici">
-    <img src="https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white" target="_blank" alt="Dev.to">
-  </a>
-</div>
-
-You can find my publications on Medium and Dev.to, where I share career insights, tips, and my knowledge and experience in tech.
-I also delve into personal thoughts and research on AI, quantum computing and other interesting topics.
-
-<!--
-Check out my latest post 👇  
-
-<a href="https://medium.com/@daria-stanilevici" target="_blank">
-  <img src="https://github-readme-medium-recent-article.vercel.app/medium/@daria-stanilevici/0" alt="Latest Medium Article" />
-</a>
-
-
-[![My latest Medium post](https://miro.medium.com/v2/resize:fit:1200/format:webp/INSERT-YOUR-COVER-IMAGE-ID-HERE)](https://medium.com/@daria-stanilevici/your-article-slug)
-
-
-     Fast links to my socials!
--->
-
-### Connect with me!
-<div>
-    <a href="https://www.linkedin.com/in/daria-stanilevici/">
-        <img src="https://github.com/user-attachments/assets/880aaea6-79b9-4058-b9b4-342391ca04ea" alt="LinkedIn" width="35" height="35"/>
-    </a>
-    <a href="https://dev.to/daria-stanilevici">
-        <img src="https://github.com/user-attachments/assets/172bc424-569a-4522-a787-97f4cd5a685d" alt="Dev.to" width="37" height="37"/>
-    </a>
-    <a href="https://www.credly.com/users/daria-stanilevici">
-        <img src="https://github.com/user-attachments/assets/6cc0dbde-bca6-43e8-a460-aa67fb449c80" alt="Credly" width="35" height="35"/>
-    </a>
-    <a href="https://www.artstation.com/daria-stanilevici">
-        <img src="https://github.com/user-attachments/assets/1206188f-4274-4240-93e6-0dfc1919f9f0" alt="Art Station" width="33" height="33"/>
-    </a>
-    <a href="https://medium.com/@daria-stanilevici">
-        <img src="https://github.com/user-attachments/assets/33da1818-a750-4e4b-a09a-9c8b1c4e9338" alt="Medium" width="35" height="35"/>
+<div align="center">
+    <a href="https://git.io/typing-svg">
+        <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=00D9FF&center=true&vCenter=true&width=700&lines=Hello%2C+I'm+Renan+Lavirotte+%F0%9F%91%8B;Passionate+about+intelligent+robots;collaborating+with+humans+%F0%9F%A4%96;Making+machines+smart+enough+to+fetch+coffee+%E2%98%95" alt="Typing SVG"/>
     </a>
 </div>
 
-<!--
-     Oh, hello there, recruiters!
--->
+<br/>
 
-### Employer?
+<!-- About Me Terminal GIF -->
+<div align="center">
+    <img src="./assets/about_renan.gif" alt="About Me Terminal GIF" width="600"/>
+</div>
+
+<br/>
+
+---
+
+## 🤖 About Me
+
+```python
+class RenanLavirotte:
+    def __init__(self):
+        self.name = "Renan Lavirotte"
+        self.role = "MEng Computer Science Student"
+        self.university = "Durham University 🇬🇧"
+        self.graduation = "2024 - 2028"
+        self.gpa = "First-Class Honours (79%)"
+        
+        self.nationalities = ["🇫🇷 French", "🇯🇵 Japanese"]
+        self.languages = {
+            "French": "Native",
+            "English": "Fluent", 
+            "Japanese": "Intermediate"
+        }
+        
+    def current_focus(self):
+        return [
+            "Autonomous Robotics 🤖",
+            "Human-Robot Interaction",
+            "Computer Vision & AI",
+            "Embedded Systems"
+        ]
+    
+    def fun_fact(self):
+        return "I'm a Track & Field Captain competing at national level! 🏃"
+```
+
+---
+
+## 🛠️ Tech Stack
+
+### Main Skills
+<div align="center">
+
+[![My Skills](https://skillicons.dev/icons?i=py,c,js,html,css,nodejs,mysql,git,github,linux,vscode,raspberrypi&perline=6)](https://skillicons.dev)
+
+</div>
+
+<div align="center">
+    <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV"/>
+    <img src="https://img.shields.io/badge/Shell-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Shell"/>
+    <img src="https://img.shields.io/badge/Assembly-6E4C13?style=for-the-badge&logo=assemblyscript&logoColor=white" alt="Assembly"/>
+    <img src="https://img.shields.io/badge/Machine%20Learning-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="ML"/>
+    <img src="https://img.shields.io/badge/MediaPipe-0097A7?style=for-the-badge&logo=google&logoColor=white" alt="MediaPipe"/>
+    <img src="https://img.shields.io/badge/REST%20APIs-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="REST"/>
+</div>
+
+### Currently Exploring
+<div align="center">
+
+[![Learning](https://skillicons.dev/icons?i=ros,docker,pytorch,tensorflow)](https://skillicons.dev)
+
+</div>
+
+---
+
+## 🚀 Featured Projects
+
+<table>
+<tr>
+<td width="50%">
+
+### 🤖 VR AI Bot for IBM
+Collaborative AI research with a 5-member team, implementing real-time adaptive interactions and IBM SkillsBuild AI modules for personalized learning experiences.
+
+</td>
+<td width="50%">
+
+### 🛸 Mars Rover Memory Allocator
+Fault-tolerant C systems for space robotics with automatic radiation-storm recovery detecting 100% of bit-flip corruptions.
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### 👁️ Computer Vision Pipeline
+90% accuracy gesture recognition system using OpenCV & MediaPipe for 3D spatial hand perception and pinch detection.
+
+</td>
+<td width="50%">
+
+### 🚗 Autonomous Robot
+Environment-reactive obstacle avoidance robot with 180° continuous scanning, 50+ systematic tests for perception optimization.
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🌍 Languages I Speak
+
+<div align="center">
+
+| Language | Level | |
+|:--------:|:-----:|:-:|
+| French | Native | 🇫🇷 |
+| English | Fluent | 🇬🇧 |
+| Japanese | Intermediate | 🇯🇵 |
+
+</div>
+
+---
+
+## 🏆 Sports & Leadership
+
+<div align="center">
+    <img src="https://img.shields.io/badge/🏃_Track_&_Field-Captain_(National_Level)-00D9FF?style=for-the-badge" alt="Track"/>
+    <img src="https://img.shields.io/badge/🎾_Tennis-15/3_Ranking-00FF88?style=for-the-badge" alt="Tennis"/>
+    <img src="https://img.shields.io/badge/🏐_Volleyball-Regional_Level-FF6B6B?style=for-the-badge" alt="Volleyball"/>
+</div>
+
+<br/>
+
+> *"Increased athlete engagement by 20% as captain at a top-2 UK sports university, competing in BUCS championships"*
+
+---
+
+## 📸 Life Beyond Code
+
+<div align="center">
+    <h4>✨ Hobbies & Adventures ✨</h4>
+    <table>
+        <tr>
+            <td align="center">
+                <img src="./assets/hobbies/hobby1.png" width="250" alt="Hobby 1"/>
+                <br/><sub><b>🏃 Athletics</b></sub>
+            </td>
+            <td align="center">
+                <img src="./assets/hobbies/hobby2.png" width="250" alt="Hobby 2"/>
+                <br/><sub><b>🎾 Tennis</b></sub>
+            </td>
+            <td align="center">
+                <img src="./assets/hobbies/hobby3.png" width="250" alt="Hobby 3"/>
+                <br/><sub><b>🎨 Digital Design</b></sub>
+            </td>
+        </tr>
+    </table>
+    <sub>📷 Add your photos to <code>assets/hobbies/</code> folder!</sub>
+</div>
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+    <img src="https://github-readme-stats.vercel.app/api?username=Renanlvrt&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=00FF88&text_color=FFFFFF" alt="GitHub Stats" height="170"/>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Renanlvrt&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&text_color=FFFFFF" alt="Top Languages" height="170"/>
+</div>
+
+<div align="center">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Renanlvrt&theme=tokyonight&hide_border=true&background=0D1117&ring=00D9FF&fire=00FF88&currStreakLabel=00D9FF" alt="GitHub Streak"/>
+</div>
+
+---
+
+## 🤝 Connect with Me!
+
+<div align="center">
+    <a href="https://www.linkedin.com/in/renan-lavirotte-695b39335/">
+        <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+    </a>
+    <a href="https://github.com/Renanlvrt">
+        <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+    </a>
+    <a href="mailto:renan.lavirotte@gmail.com">
+        <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+    </a>
+</div>
+
+---
+
+## 💼 Employer?
+
 > [!IMPORTANT]  
-> <a href="https://drive.google.com/drive/folders/1hJGhQTtzDUzMqRtoIQUx7QTLtCN726ZK?usp=sharing" download>Download my resume</a>
+> <a href="./renan_lavirotte_cv.pdf" download>📄 Download my Resume</a>
 
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=D9BED1&height=120&section=footer" alt="footer"/>
+---
+
+<div align="center">
+    <img src="https://komarev.com/ghpvc/?username=Renanlvrt&color=00D9FF&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views"/>
+</div>
+
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00D9FF&height=120&section=footer" alt="footer"/>
 
 <!--
-     Thanks for being my guest <3
+    Thanks for visiting! Feel free to reach out 🚀
 -->
