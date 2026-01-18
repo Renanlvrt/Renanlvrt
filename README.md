@@ -110,7 +110,10 @@ Environment-reactive obstacle avoidance robot with 180° continuous scanning, 50
 
 <br/>
 
-> *"Increased athlete engagement by 20% as captain at a top-2 UK sports university, competing in BUCS championships"*
+> <!-->*"Increased athlete engagement by 20% as captain at a top-2 UK sports university, competing in BUCS championships"*
+> “Durham’s fastest sprinter and newly appointed men’s track captain.”
+— The Palatinate, “The pinnacle of track and field: DUAXC take on BUCS Outdoors 2025”
+https://www.palatinate.org.uk/the-pinnacle-of-track-and-field-duaxc-take-on-bucs-outdoors-2025/
 
 ---
 
