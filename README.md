@@ -22,6 +22,29 @@
 
 <br/>
 
+## 🤖 Robotics in Motion
+
+<table>
+<tr>
+<td width="38%" align="center">
+    <video controls muted loop playsinline preload="metadata" poster="./assets/robotics/robotics-demo.jpg" width="240">
+        <source src="./assets/robotics/robotics-demo.mp4" type="video/mp4"/>
+    </video>
+    <br/>
+    <sub><b>Robotics prototype</b></sub>
+</td>
+<td width="62%" align="center">
+    <video controls muted loop playsinline preload="metadata" poster="./assets/robotics/mona-swarm-trial.jpg" width="480">
+        <source src="./assets/robotics/mona-swarm-trial.mp4" type="video/mp4"/>
+    </video>
+    <br/>
+    <sub><b>Mona swarm hardware trial</b></sub>
+</td>
+</tr>
+</table>
+
+<br/>
+
 ---
 
 ## Contribution Calendar
