@@ -24,7 +24,7 @@
 
 ---
 
-## 📈 Contribution Calendar
+## Contribution Calendar
 
 <div align="center">
     <img src="./profile-3d-contrib/profile-dark.svg" alt="3D GitHub contribution calendar" width="100%"/>
