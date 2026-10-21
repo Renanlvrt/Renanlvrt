@@ -27,9 +27,10 @@
 ## 📈 Contribution Calendar
 
 <div align="center">
-    <img src="./profile-3d-contrib/profile-green.svg" alt="3D GitHub contribution calendar" width="100%"/>
+    <img src="./profile-3d-contrib/profile-dark.svg" alt="3D GitHub contribution calendar" width="100%"/>
 </div>
 
+This calendar is refreshed automatically each day with GitHub Actions. To include your private activity, enable **Include private contributions on my profile** in GitHub's profile contribution settings. GitHub shows private activity only as aggregated contributions; private repository names and code are never exposed.
 
 ---
 
@@ -148,16 +149,6 @@ https://www.palatinate.org.uk/the-pinnacle-of-track-and-field-duaxc-take-on-bucs
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=Renanlvrt&theme=tokyonight&hide_border=true&background=0D1117&ring=00D9FF&fire=00FF88&currStreakLabel=00D9FF" alt="GitHub Streak"/>
 </div>
 -->
-
----
-
-## 📈 Contribution Calendar
-
-<div align="center">
-    <img src="./profile-3d-contrib/profile-night-green.svg" alt="3D GitHub contribution calendar" width="100%"/>
-</div>
-
-This calendar is refreshed automatically each day with GitHub Actions. To include your private activity, enable **Include private contributions on my profile** in GitHub's profile contribution settings. GitHub shows private activity only as aggregated contributions; private repository names and code are never exposed.
 
 ---
 
