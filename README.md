@@ -26,12 +26,17 @@
 
 <table>
 <tr>
-<td width="38%" align="center">
+<td width="30%" align="center">
     <img src="./assets/robotics/robotics-demo.gif" alt="Robotics prototype demo" width="180"/>
     <br/>
     <sub><b>Robotics prototype</b></sub>
 </td>
-<td width="62%" align="center">
+<td width="30%" align="center">
+    <img src="./assets/robotics/robotics-demo-2.gif" alt="Robotics demo" width="180"/>
+    <br/>
+    <sub><b>Robotics demo</b></sub>
+</td>
+<td width="40%" align="center">
     <img src="./assets/robotics/mona-swarm-trial.gif" alt="Mona swarm hardware trial" width="360"/>
     <br/>
     <sub><b>Mona swarm hardware trial</b></sub>
