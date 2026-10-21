@@ -27,16 +27,12 @@
 <table>
 <tr>
 <td width="38%" align="center">
-    <video controls muted loop playsinline preload="metadata" poster="./assets/robotics/robotics-demo.jpg" width="240">
-        <source src="./assets/robotics/robotics-demo.mp4" type="video/mp4"/>
-    </video>
+    <img src="./assets/robotics/robotics-demo.gif" alt="Robotics prototype demo" width="180"/>
     <br/>
     <sub><b>Robotics prototype</b></sub>
 </td>
 <td width="62%" align="center">
-    <video controls muted loop playsinline preload="metadata" poster="./assets/robotics/mona-swarm-trial.jpg" width="480">
-        <source src="./assets/robotics/mona-swarm-trial.mp4" type="video/mp4"/>
-    </video>
+    <img src="./assets/robotics/mona-swarm-trial.gif" alt="Mona swarm hardware trial" width="360"/>
     <br/>
     <sub><b>Mona swarm hardware trial</b></sub>
 </td>
