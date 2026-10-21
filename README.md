@@ -142,6 +142,16 @@ https://www.palatinate.org.uk/the-pinnacle-of-track-and-field-duaxc-take-on-bucs
 
 ---
 
+## 📈 Contribution Calendar
+
+<div align="center">
+    <img src="./profile-3d-contrib/profile-green-animate.svg" alt="3D GitHub contribution calendar" width="100%"/>
+</div>
+
+This calendar is refreshed automatically each day with GitHub Actions. To include your private activity, enable **Include private contributions on my profile** in GitHub's profile contribution settings. GitHub shows private activity only as aggregated contributions; private repository names and code are never exposed.
+
+---
+
 ## 🤝 Connect with Me!
 
 <div align="center">
